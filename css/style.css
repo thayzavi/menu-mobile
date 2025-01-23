@@ -1,0 +1,123 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 3px 10px #3d3d3d36;
+}
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 6rem;
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo h1{
+    color: azure;
+}
+.list{
+    display: flex;
+    align-items: center;
+}
+.list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.nav-item{
+    margin: 0px 15px;
+}
+.nav-link{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: aliceblue;
+    font-weight: 400;
+}
+.login-button button{
+    border: none;
+    background-color: #00e1ff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.login-button button a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.mobile-menu-icon{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
+@media screen and (max-width: 730px) {
+    .nav-bar{
+        padding: 1.5rem 4rem;
+    }
+    .nav-item{
+        display: none;
+    }
+    .login-button{
+        display: none;
+    }
+    .mobile-menu-icon{
+        display: block;
+    }
+    .mobile-menu-icon button{
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+    }
+    .mobile-menu .nav-item{
+        display: block;
+        padding: 1.2rem;
+    }
+    .mobile-menu .login-button{
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .mobile-menu .login-button button{
+        width: 100%;
+    }
+    .open{
+        display: block;
+    }
+}
+/* ESTILO SOBRE */
+    
+section.sobre{
+    padding: 90px 14%;
+}
+.sobre .txt-sobre{
+    color: #000000;
+}
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+.sobre .txt-sobre h2 span{
+   color: #8e9494;
+   display: block;
+}
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align:inherit;
+}
