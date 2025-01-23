@@ -8,10 +8,14 @@ Acesse o projeto diretamente: Menu Mobile
 HTML5: Estrutura do conteúdo.
 CSS3: Estilos e design responsivo.
 JavaScript: Interatividade do menu.
+
+
 📱 Recursos
 Responsividade: Funciona em qualquer tamanho de tela (desktop, tablet, mobile).
 Interface Simples e Limpa: Fácil de usar, com navegação intuitiva.
 Design Adaptável: Elementos reposicionados dinamicamente para diferentes dispositivos.
+
+
 🚀 Como Usar
 Acesse o link acima em um navegador de sua escolha.
 Abra o menu clicando no ícone correspondente.
